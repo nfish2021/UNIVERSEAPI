@@ -1,0 +1,40 @@
+# PowerShell specific
+*.ps1xml
+*.pssc
+*.tmp
+*.log
+
+# Visual Studio Code
+.vscode/
+
+# Temporary files
+/tmp/
+temp/
+*.temp
+
+# Windows specific
+Thumbs.db
+Desktop.ini
+
+# macOS specific
+.DS_Store
+
+# Module build artifacts
+build/
+dist/
+out/
+
+# Test results
+TestResults/
+*.trx
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Configuration files with sensitive data
+config.json
+secrets.json
+*.config.ps1
